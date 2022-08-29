@@ -17,4 +17,12 @@ public class ElectricEngine extends Engine {
         super(modelNumber, displacement, maxHorsePower, numberOfCylinders, revolutionsPerMinute);
         this.voltage = voltage;
     }
+
+    public float getVoltage() {
+        return voltage;
+    }
+
+    public void setVoltage(float voltage) {
+        this.voltage = voltage;
+    }
 }
