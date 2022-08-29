@@ -25,5 +25,8 @@ public class EngineImpl {
         CNGEngine cng = new CNGEngine();
         cng.setFuelType("CNG");
         System.out.println("The fuel type of CNG Engine : " + cng.getFuelType());
+
+        ElectricEngine electric = new ElectricEngine();
+
     }
 }
