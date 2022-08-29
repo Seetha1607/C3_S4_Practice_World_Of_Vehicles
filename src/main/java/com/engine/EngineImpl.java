@@ -14,5 +14,7 @@ public class EngineImpl {
         System.out.println("Revolutions per minute of Engine : " + engine.getRevolutionsPerMinute() + "rpm");
         System.out.println("Number of cylinders in Engine : " + engine.getNumberOfCylinders());
 
+        PetrolEngine petrol = new PetrolEngine();
+
     }
 }
