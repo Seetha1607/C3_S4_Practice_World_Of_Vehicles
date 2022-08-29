@@ -13,7 +13,7 @@ public class PetrolEngine extends Engine {
     public PetrolEngine() {
     }
 
-    public PetrolEngine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute, String fuelType) {
+    public PetrolEngine(String modelNumber, int displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute, String fuelType) {
         super(modelNumber, displacement, maxHorsePower, numberOfCylinders, revolutionsPerMinute);
         this.fuelType = fuelType;
     }

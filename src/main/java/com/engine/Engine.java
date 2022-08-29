@@ -9,7 +9,7 @@ package com.engine;
 
 public class Engine {
     private String modelNumber;
-    private float displacement;
+    private int displacement;
     private float maxHorsePower;
     private int numberOfCylinders;
     private int revolutionsPerMinute;
@@ -17,7 +17,7 @@ public class Engine {
     public Engine() {
     }
 
-    public Engine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute) {
+    public Engine(String modelNumber, int displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute) {
         this.modelNumber = modelNumber;
         this.displacement = displacement;
         this.maxHorsePower = maxHorsePower;
@@ -33,11 +33,11 @@ public class Engine {
         this.modelNumber = modelNumber;
     }
 
-    public float getDisplacement() {
+    public int getDisplacement() {
         return displacement;
     }
 
-    public void setDisplacement(float displacement) {
+    public void setDisplacement(int displacement) {
         this.displacement = displacement;
     }
 
