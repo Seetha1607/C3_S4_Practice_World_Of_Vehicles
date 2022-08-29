@@ -24,4 +24,44 @@ public class Engine {
         this.numberOfCylinders = numberOfCylinders;
         this.revolutionsPerMinute = revolutionsPerMinute;
     }
+
+    public String getModelNumber() {
+        return modelNumber;
+    }
+
+    public void setModelNumber(String modelNumber) {
+        this.modelNumber = modelNumber;
+    }
+
+    public float getDisplacement() {
+        return displacement;
+    }
+
+    public void setDisplacement(float displacement) {
+        this.displacement = displacement;
+    }
+
+    public float getMaxHorsePower() {
+        return maxHorsePower;
+    }
+
+    public void setMaxHorsePower(float maxHorsePower) {
+        this.maxHorsePower = maxHorsePower;
+    }
+
+    public int getNumberOfCylinders() {
+        return numberOfCylinders;
+    }
+
+    public void setNumberOfCylinders(int numberOfCylinders) {
+        this.numberOfCylinders = numberOfCylinders;
+    }
+
+    public int getRevolutionsPerMinute() {
+        return revolutionsPerMinute;
+    }
+
+    public void setRevolutionsPerMinute(int revolutionsPerMinute) {
+        this.revolutionsPerMinute = revolutionsPerMinute;
+    }
 }
