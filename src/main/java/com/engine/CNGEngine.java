@@ -7,5 +7,5 @@
 
 package com.engine;
 
-public class CNGEngine {
+public class CNGEngine extends Engine {
 }
