@@ -9,4 +9,7 @@ package com.engine;
 
 public class CNGEngine extends Engine {
     private String fuelType;
+
+    public CNGEngine() {
+    }
 }
