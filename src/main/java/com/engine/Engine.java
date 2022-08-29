@@ -14,4 +14,6 @@ public class Engine {
     private int numberOfCylinders;
     private int revolutionsPerMinute;
 
+    public Engine() {
+    }
 }
