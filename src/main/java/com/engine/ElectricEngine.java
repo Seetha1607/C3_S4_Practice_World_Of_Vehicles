@@ -12,4 +12,9 @@ public class ElectricEngine extends Engine {
 
     public ElectricEngine() {
     }
+
+    public ElectricEngine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute, float voltage) {
+        super(modelNumber, displacement, maxHorsePower, numberOfCylinders, revolutionsPerMinute);
+        this.voltage = voltage;
+    }
 }
