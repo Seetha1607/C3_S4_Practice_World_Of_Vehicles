@@ -15,6 +15,8 @@ public class EngineImpl {
         System.out.println("Number of cylinders in Engine : " + engine.getNumberOfCylinders());
 
         PetrolEngine petrol = new PetrolEngine();
+        petrol.setFuelType("Petrol");
+        System.out.println("The fuel type of Petrol Engine : " + petrol.getFuelType());
 
     }
 }
