@@ -12,4 +12,9 @@ public class CNGEngine extends Engine {
 
     public CNGEngine() {
     }
+
+    public CNGEngine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute, String fuelType) {
+        super(modelNumber, displacement, maxHorsePower, numberOfCylinders, revolutionsPerMinute);
+        this.fuelType = fuelType;
+    }
 }
