@@ -9,4 +9,7 @@ package com.engine;
 
 public class ElectricEngine extends Engine {
     private float voltage;
+
+    public ElectricEngine() {
+    }
 }
