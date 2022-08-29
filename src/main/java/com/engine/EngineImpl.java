@@ -1,7 +1,6 @@
 package com.engine;
 
-public class Main {
+public class EngineImpl {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
     }
 }
