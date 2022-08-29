@@ -19,6 +19,7 @@ public class EngineImpl {
         System.out.println("The fuel type of Petrol Engine : " + petrol.getFuelType());
 
         DieselEngine diesel = new DieselEngine();
-
+        diesel.setFuelType("Diesel");
+        System.out.println("The fuel type of Diesel Engine : " + diesel.getFuelType());
     }
 }
