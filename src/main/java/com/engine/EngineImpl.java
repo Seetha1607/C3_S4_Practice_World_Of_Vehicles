@@ -27,6 +27,8 @@ public class EngineImpl {
         System.out.println("The fuel type of CNG Engine : " + cng.getFuelType());
 
         ElectricEngine electric = new ElectricEngine();
+        electric.setVoltage(50.3);
+        System.out.println("The voltage of Electric Engine : " + electric.getVoltage() + "kWh");
 
     }
 }
