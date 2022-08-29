@@ -29,6 +29,5 @@ public class EngineImpl {
         ElectricEngine electric = new ElectricEngine();
         electric.setVoltage(50.3);
         System.out.println("The voltage of Electric Engine : " + electric.getVoltage() + "kWh");
-
     }
 }
