@@ -16,4 +16,12 @@ public class Engine {
 
     public Engine() {
     }
+
+    public Engine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute) {
+        this.modelNumber = modelNumber;
+        this.displacement = displacement;
+        this.maxHorsePower = maxHorsePower;
+        this.numberOfCylinders = numberOfCylinders;
+        this.revolutionsPerMinute = revolutionsPerMinute;
+    }
 }
