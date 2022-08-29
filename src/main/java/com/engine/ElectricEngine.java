@@ -8,7 +8,7 @@
 package com.engine;
 
 public class ElectricEngine extends Engine {
-    private float voltage;
+    private double voltage;
 
     public ElectricEngine() {
     }
@@ -18,11 +18,11 @@ public class ElectricEngine extends Engine {
         this.voltage = voltage;
     }
 
-    public float getVoltage() {
+    public double getVoltage() {
         return voltage;
     }
 
-    public void setVoltage(float voltage) {
+    public void setVoltage(double voltage) {
         this.voltage = voltage;
     }
 }
