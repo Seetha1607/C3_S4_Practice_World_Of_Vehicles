@@ -7,5 +7,5 @@
 
 package com.engine;
 
-public class DieselEngine {
+public class DieselEngine extends Engine {
 }
