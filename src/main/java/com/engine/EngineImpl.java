@@ -8,5 +8,11 @@ public class EngineImpl {
         engine.setMaxHorsePower(117);
         engine.setRevolutionsPerMinute(6600);
         engine.setNumberOfCylinders(4);
+        System.out.println("Model Number of Engine : " + engine.getModelNumber());
+        System.out.println("Displacement of Engine : " + engine.getDisplacement() + "cc");
+        System.out.println("Maximum Horse power of Engine : " + engine.getMaxHorsePower() + "bhp");
+        System.out.println("Revolutions per minute of Engine : " + engine.getRevolutionsPerMinute() + "rpm");
+        System.out.println("Number of cylinders in Engine : " + engine.getNumberOfCylinders());
+
     }
 }
