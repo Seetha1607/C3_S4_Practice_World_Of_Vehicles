@@ -12,4 +12,9 @@ public class DieselEngine extends Engine {
 
     public DieselEngine() {
     }
+
+    public DieselEngine(String modelNumber, float displacement, float maxHorsePower, int numberOfCylinders, int revolutionsPerMinute, String fuelType) {
+        super(modelNumber, displacement, maxHorsePower, numberOfCylinders, revolutionsPerMinute);
+        this.fuelType = fuelType;
+    }
 }
