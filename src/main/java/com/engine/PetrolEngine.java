@@ -8,4 +8,5 @@
 package com.engine;
 
 public class PetrolEngine extends Engine {
+    private String fuelType;
 }
